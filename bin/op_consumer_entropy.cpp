@@ -51,10 +51,14 @@ int main (int argc, char** argv)
 
             processEntropy(*optr);
         }
+
+
+
+
+        file << getEntropyValue() << endl;
+        file.close();
+
     }
-    
-    file << getEntropyValue() << endl;
-    file.close();
     //cout << "Presione cualquier tecla para continuar..." << endl;
     //cin.get();
     
