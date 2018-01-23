@@ -13,4 +13,6 @@ The source of the code calculations of entropy is available, you can use it dire
 
 There is a consumer code for using with redis and the k_v_store_benchmark to test the entropy.
 
+## Aknowledgement
 
+This work is a C++ version of the algorithm that was already implemented in Java on this repository: https://github.com/blazs/DataStreamAlgorithms
